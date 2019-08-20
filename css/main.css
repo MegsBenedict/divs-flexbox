@@ -103,9 +103,55 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  padding: 1em;
+  font-size: 3em;
   height: 100%;
+}
+
+header {
+  background-color: gray;
+  height: 5em;
+  width: 100%;
+}
+
+header span {
+    font-family: 'Pacifico', cursive;
+
+}
+
+footer {
+    font-size: 0.25em;
+    background-color: gray;
+    height: 5em;
+    width: 100%;
+}
+
+main {
+    background-color: grey;
+    height: 2em;
+    width: 100%;
+  }
+
+header,
+footer,
+main {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+}
+
+#div-1,
+#div-2,
+#div-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 2em;
+  height: auto;
+  width: 30%;
+  border: yellow dotted 5px;
 }
 
 .wrapper {
@@ -115,29 +161,6 @@ body {
   justify-content: space-between;
   background: gray;
   flex-flow: row wrap;
-  
-  
-}
-
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 2em;
-  background-color: gray;
-  height: auto;
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  align-items: center;
-}
-
-.div-1 {
-    border-right: 3px solid darkgrey;
-}
-
-.div-2 {
-    border-right: 3px solid darkgrey;
 }
 
 
